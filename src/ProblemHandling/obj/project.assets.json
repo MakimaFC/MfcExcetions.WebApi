@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     "net9.0": {
+      "MakimaFC.Extensions.WebApi.ProblemHandling.Exception/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/ProblemHandling.Exception.dll": {}
+        },
+        "runtime": {
+          "lib/net9.0/ProblemHandling.Exception.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Http.Abstractions/2.3.0": {
         "type": "package",
         "dependencies": {
@@ -131,20 +140,23 @@
             "rid": "browser"
           }
         }
-      },
-      "MakimaFC.Extensions.WebApi.ProblemHandling.Exception/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v9.0",
-        "compile": {
-          "bin/placeholder/MakimaFC.Extensions.WebApi.ProblemHandling.Exception.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/MakimaFC.Extensions.WebApi.ProblemHandling.Exception.dll": {}
-        }
       }
     }
   },
   "libraries": {
+    "MakimaFC.Extensions.WebApi.ProblemHandling.Exception/1.0.0": {
+      "sha512": "HHAOoTsykh4RleeQq+28yzj4NNmIGIeZAFSbZ3y538bJPvcjU2xhYO6ImfH5aPQOSFaW866BDXNCCJHUL49xAQ==",
+      "type": "package",
+      "path": "makimafc.extensions.webapi.problemhandling.exception/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net9.0/ProblemHandling.Exception.dll",
+        "logo.jpg",
+        "makimafc.extensions.webapi.problemhandling.exception.1.0.0.nupkg.sha512",
+        "makimafc.extensions.webapi.problemhandling.exception.nuspec"
+      ]
+    },
     "Microsoft.AspNetCore.Http.Abstractions/2.3.0": {
       "sha512": "39r9PPrjA6s0blyFv5qarckjNkaHRA5B+3b53ybuGGNTXEj1/DStQJ4NWjFL6QTRQpL9zt7nDyKxZdJOlcnq+Q==",
       "type": "package",
@@ -294,16 +306,10 @@
         "system.text.encodings.web.nuspec",
         "useSharedDesignerContext.txt"
       ]
-    },
-    "MakimaFC.Extensions.WebApi.ProblemHandling.Exception/1.0.0": {
-      "type": "project",
-      "path": "../ProblemHandling.Exception/ProblemHandling.Exception.csproj",
-      "msbuildProject": "../ProblemHandling.Exception/ProblemHandling.Exception.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
-      "/Users/zxhu/Desktop/MyNuget/MfcExtensions.WebApi/src/src/ProblemHandling.Exception/ProblemHandling.Exception.csproj",
       "MakimaFC.Extensions.WebApi.ProblemHandling.Exception >= 1.0.0",
       "Microsoft.AspNetCore.Mvc.Abstractions >= 2.3.0"
     ]
@@ -333,14 +339,7 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {
-            "/Users/zxhu/Desktop/MyNuget/MfcExtensions.WebApi/src/ProblemHandling.Exception/ProblemHandling.Exception.csproj": {
-              "projectPath": "/Users/zxhu/Desktop/MyNuget/MfcExtensions.WebApi/src/ProblemHandling.Exception/ProblemHandling.Exception.csproj"
-            },
-            "/Users/zxhu/Desktop/MyNuget/MfcExtensions.WebApi/src/src/ProblemHandling.Exception/ProblemHandling.Exception.csproj": {
-              "projectPath": "/Users/zxhu/Desktop/MyNuget/MfcExtensions.WebApi/src/src/ProblemHandling.Exception/ProblemHandling.Exception.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -359,6 +358,10 @@
       "net9.0": {
         "targetAlias": "net9.0",
         "dependencies": {
+          "MakimaFC.Extensions.WebApi.ProblemHandling.Exception": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          },
           "Microsoft.AspNetCore.Mvc.Abstractions": {
             "target": "Package",
             "version": "[2.3.0, )"
@@ -383,16 +386,5 @@
         "runtimeIdentifierGraphPath": "/Users/zxhu/.dotnet/sdk/9.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project '/Users/zxhu/Desktop/MyNuget/MfcExtensions.WebApi/src/src/ProblemHandling.Exception/ProblemHandling.Exception.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "/Users/zxhu/Desktop/MyNuget/MfcExtensions.WebApi/src/src/ProblemHandling.Exception/ProblemHandling.Exception.csproj",
-      "targetGraphs": [
-        "net9.0"
-      ]
-    }
-  ]
+  }
 }

@@ -12,11 +12,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\ProblemHandling.Exception\ProblemHandling.Exception.csproj" />
-      <ProjectReference Include="..\src\ProblemHandling.Exception\ProblemHandling.Exception.csproj" />
-    </ItemGroup>
-
-    <ItemGroup>
+      <PackageReference Include="MakimaFC.Extensions.WebApi.ProblemHandling.Exception" Version="1.0.0" />
       <PackageReference Include="Microsoft.AspNetCore.Mvc.Abstractions" Version="2.3.0" />
     </ItemGroup>
 

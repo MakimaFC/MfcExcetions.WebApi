@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "6M0j0ia5CAo=",
-  "success": false,
+  "dgSpecHash": "RTO1pr3tASc=",
+  "success": true,
   "projectFilePath": "/Users/zxhu/Desktop/MyNuget/MfcExtensions.WebApi/src/ProblemHandling/ProblemHandling.csproj",
   "expectedPackageFiles": [
+    "/Users/zxhu/.nuget/packages/makimafc.extensions.webapi.problemhandling.exception/1.0.0/makimafc.extensions.webapi.problemhandling.exception.1.0.0.nupkg.sha512",
     "/Users/zxhu/.nuget/packages/microsoft.aspnetcore.http.abstractions/2.3.0/microsoft.aspnetcore.http.abstractions.2.3.0.nupkg.sha512",
     "/Users/zxhu/.nuget/packages/microsoft.aspnetcore.http.features/2.3.0/microsoft.aspnetcore.http.features.2.3.0.nupkg.sha512",
     "/Users/zxhu/.nuget/packages/microsoft.aspnetcore.mvc.abstractions/2.3.0/microsoft.aspnetcore.mvc.abstractions.2.3.0.nupkg.sha512",
@@ -13,17 +14,5 @@
     "/Users/zxhu/.nuget/packages/system.buffers/4.6.0/system.buffers.4.6.0.nupkg.sha512",
     "/Users/zxhu/.nuget/packages/system.text.encodings.web/8.0.0/system.text.encodings.web.8.0.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project '/Users/zxhu/Desktop/MyNuget/MfcExtensions.WebApi/src/src/ProblemHandling.Exception/ProblemHandling.Exception.csproj'. Check that the project reference is valid and that the project file exists.",
-      "projectPath": "/Users/zxhu/Desktop/MyNuget/MfcExtensions.WebApi/src/ProblemHandling/ProblemHandling.csproj",
-      "filePath": "/Users/zxhu/Desktop/MyNuget/MfcExtensions.WebApi/src/ProblemHandling/ProblemHandling.csproj",
-      "libraryId": "/Users/zxhu/Desktop/MyNuget/MfcExtensions.WebApi/src/src/ProblemHandling.Exception/ProblemHandling.Exception.csproj",
-      "targetGraphs": [
-        "net9.0"
-      ]
-    }
-  ]
+  "logs": []
 }
