@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>MakimaFC.Extensions.WebApi.ProblemHandling.Exception</RootNamespace>
+        <PackageId>MakimaFC.Extensions.WebApi.ProblemHandling.Exception</PackageId>
+        <Authors />
+        <PackageIcon>logo.jpg</PackageIcon>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <None Update="logo.jpg">
+        <Pack>True</Pack>
+        <PackagePath></PackagePath>
+      </None>
+    </ItemGroup>
+
+</Project>

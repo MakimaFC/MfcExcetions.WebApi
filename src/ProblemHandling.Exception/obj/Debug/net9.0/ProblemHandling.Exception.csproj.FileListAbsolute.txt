@@ -1,0 +1,11 @@
+/Users/zxhu/Desktop/MyNuget/MfcExtensions.WebApi/src/ProblemHandling.Exception/bin/Debug/net9.0/ProblemHandling.Exception.deps.json
+/Users/zxhu/Desktop/MyNuget/MfcExtensions.WebApi/src/ProblemHandling.Exception/bin/Debug/net9.0/ProblemHandling.Exception.dll
+/Users/zxhu/Desktop/MyNuget/MfcExtensions.WebApi/src/ProblemHandling.Exception/bin/Debug/net9.0/ProblemHandling.Exception.pdb
+/Users/zxhu/Desktop/MyNuget/MfcExtensions.WebApi/src/ProblemHandling.Exception/obj/Debug/net9.0/ProblemHandling.Exception.GeneratedMSBuildEditorConfig.editorconfig
+/Users/zxhu/Desktop/MyNuget/MfcExtensions.WebApi/src/ProblemHandling.Exception/obj/Debug/net9.0/ProblemHandling.Exception.AssemblyInfoInputs.cache
+/Users/zxhu/Desktop/MyNuget/MfcExtensions.WebApi/src/ProblemHandling.Exception/obj/Debug/net9.0/ProblemHandling.Exception.AssemblyInfo.cs
+/Users/zxhu/Desktop/MyNuget/MfcExtensions.WebApi/src/ProblemHandling.Exception/obj/Debug/net9.0/ProblemHandling.Exception.csproj.CoreCompileInputs.cache
+/Users/zxhu/Desktop/MyNuget/MfcExtensions.WebApi/src/ProblemHandling.Exception/obj/Debug/net9.0/ProblemHandling.Exception.dll
+/Users/zxhu/Desktop/MyNuget/MfcExtensions.WebApi/src/ProblemHandling.Exception/obj/Debug/net9.0/refint/ProblemHandling.Exception.dll
+/Users/zxhu/Desktop/MyNuget/MfcExtensions.WebApi/src/ProblemHandling.Exception/obj/Debug/net9.0/ProblemHandling.Exception.pdb
+/Users/zxhu/Desktop/MyNuget/MfcExtensions.WebApi/src/ProblemHandling.Exception/obj/Debug/net9.0/ref/ProblemHandling.Exception.dll
